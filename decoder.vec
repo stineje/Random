@@ -1,0 +1,38 @@
+; Vector patterns Definition Section
+radix	24 24 24 24
+io	ii ii ii ii
+vname	ADDR1[5] ADDR1[4] ADDR1[3] ADDR1[2] ADDR1[1] ADDR1[0]
++ ADDR2[5] ADDR2[4] ADDR2[3] ADDR2[2] ADDR2[1] ADDR2[0]
++ ADDR3[5] ADDR3[4] ADDR3[3] ADDR3[2] ADDR3[1] ADDR3[0]
++ ADDR4[5] ADDR4[4] ADDR4[3] ADDR4[2] ADDR4[1] ADDR4[0]
+
+; Waveform Characteristic Section
+tunit	   ns
+vref	   gnd
+vih	   0.9
+slope	   1.0
+
+; Tabular Data Section
+; TIME(ns) ADDR3[5:0] ADDR1[5:0] DATA_IN[63:0] CSb WEb[4:1] OEb[6:1] 
+0.00	3f 28 28 15
+20.00	1f 3e 18 23	
+40.00	35 25 29 18
+60.00	00 3c 0d 26
+80.00	23 13 2c 3e
+100.00	18 26 21 21
+120.00	2c 15 19 22
+140.00	19 0f 2f 1d
+160.00	1a 00 16 2c		 
+180.00	2d 2b 1f 01
+200.00	28 30 35 1d
+220.00	26 28 03 2f
+240.00	3f 34 01 12
+260.00	23 37 3d 1e
+280.00	06 0b 18 3e
+300.00	11 39 15 39
+320.00	08 3e 2f 01
+340.00	1b 3f 06 1a
+360.00	33 35 08 09
+
+
+
