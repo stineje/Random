@@ -13,7 +13,7 @@ vih	   0.9
 slope	   1.0
 
 ; Tabular Data Section
-; TIME(ns) ADDR3[5:0] ADDR1[5:0] DATA_IN[63:0] CSb WEb[4:1] OEb[6:1] 
+; TIME(ns) ADDR1[5:0] ADDR2[5:0] ADDR3[5:0] ADDR4[5:0] 
 0.00	3f 28 28 15
 20.00	1f 3e 18 23	
 40.00	35 25 29 18
